@@ -3,6 +3,9 @@ import healpy as hp
 import numpy as np
 import utils
 
+'''
+add license
+'''
 class BPE(object):
     
     def __init__(self, mask_in, nside, bin_w, lmax, beams, wsp = True):
